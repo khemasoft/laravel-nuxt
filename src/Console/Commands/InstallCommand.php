@@ -1,6 +1,6 @@
 <?php
 
-namespace M2S\LaravelNuxt\Console\Commands;
+namespace Khemasoft\LaravelNuxt\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;

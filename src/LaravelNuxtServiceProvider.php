@@ -1,9 +1,9 @@
 <?php
 
-namespace M2S\LaravelNuxt;
+namespace Khemasoft\LaravelNuxt;
 
 use Illuminate\Support\ServiceProvider;
-use M2S\LaravelNuxt\Console\Commands\InstallCommand;
+use Khemasoft\LaravelNuxt\Console\Commands\InstallCommand;
 
 class LaravelNuxtServiceProvider extends ServiceProvider
 {

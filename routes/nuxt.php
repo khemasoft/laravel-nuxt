@@ -1,5 +1,5 @@
 <?php
 
-use M2S\LaravelNuxt\Facades\Nuxt;
+use Khemasoft\LaravelNuxt\Facades\Nuxt;
 
 Nuxt::route('{path?}')->middleware('web')->name('nuxt')->where('path', '.*');

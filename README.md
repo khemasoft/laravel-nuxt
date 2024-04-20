@@ -11,7 +11,7 @@ composer require m2s/laravel-nuxt
 After installation you can publish the config.
 
 ```sh
-php artisan vendor:publish --provider="M2S\LaravelNuxt\LaravelNuxtServiceProvider"
+php artisan vendor:publish --provider="Khemasoft\LaravelNuxt\LaravelNuxtServiceProvider"
 ```
 
 ## Setup
@@ -73,7 +73,7 @@ In `routes/web.php`:
 
 ```php
 
-use M2S\LaravelNuxt\Facades\Nuxt;
+use Khemasoft\LaravelNuxt\Facades\Nuxt;
 
 Nuxt::route('example/route')->name('nuxt.example');
 ```

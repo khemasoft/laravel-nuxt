@@ -1,9 +1,9 @@
 <?php
 
-namespace M2S\LaravelNuxt\Facades;
+namespace Khemasoft\LaravelNuxt\Facades;
 
 use Illuminate\Support\Facades\Route;
-use M2S\LaravelNuxt\Http\Controllers\NuxtController;
+use Khemasoft\LaravelNuxt\Http\Controllers\NuxtController;
 
 class Nuxt
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace M2S\LaravelNuxt\Http\Controllers;
+namespace Khemasoft\LaravelNuxt\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use M2S\LaravelNuxt\Exceptions\InvalidConfigurationException;
+use Khemasoft\LaravelNuxt\Exceptions\InvalidConfigurationException;
 
 class NuxtController
 {
