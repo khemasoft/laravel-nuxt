@@ -1,6 +1,6 @@
 {
-    "name": "m2s/laravel-nuxt",
-    "description": "NuxtJS framework integration for Laravel",
+    "name": "khemasoft/laravel-nuxt",
+    "description": "NuxtJS framework integration for Laravel forked from m2s/laravel-nuxt",
     "version": "1.2.0",
     "type": "library",
     "keywords": [
@@ -37,33 +37,33 @@
         "lint:fix": [
             "php-cs-fixer fix --ansi",
             "phpcbf . --colors"
-        ],
-        "lint:staged": "grumphp run --ansi"
+        ]
     },
     "require": {
-        "laravel/framework": "^8.0",
-        "illuminate/support": "^8.0"
+        "laravel/framework": "^11.0",
+        "illuminate/support": "^11.0"
     },
     "require-dev": {
-        "phpmd/phpmd": "^2.8",
-        "squizlabs/php_codesniffer": "^3.5",
-        "phpro/grumphp": "^0.18.0",
-        "friendsofphp/php-cs-fixer": "^2.16",
-        "pedrotroller/php-cs-custom-fixer": "^2.23"
+
     },
     "autoload": {
         "psr-4": {
-            "M2S\\LaravelNuxt\\": "src/"
+            "Khemasoft\\LaravelNuxt\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "M2S\\LaravelNuxt\\LaravelNuxtServiceProvider"
+                "Khemasoft\\LaravelNuxt\\LaravelNuxtServiceProvider"
             ],
             "aliases": {
-                "Nuxt": "M2S\\LaravelNuxt\\Facades\\Nuxt"
+                "Nuxt": "Khemasoft\\LaravelNuxt\\Facades\\Nuxt"
             }
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "phpro/grumphp": true
         }
     }
 }
